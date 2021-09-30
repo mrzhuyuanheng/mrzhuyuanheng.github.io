@@ -50,4 +50,5 @@ jobs:
           else
             npm i
           fi
-          GIT_USER=<yhzhu> DEPLOYMENT_BRANCH=master USE_SSH=true yarn deploy
+          npm install
+          npm run deploy
