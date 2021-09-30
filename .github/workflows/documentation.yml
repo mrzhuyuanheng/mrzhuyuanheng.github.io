@@ -50,4 +50,4 @@ jobs:
           else
             npm i
           fi
-          npx docusaurus deploy
+          GIT_USER=<mrzhuyuanheng> DEPLOYMENT_BRANCH=master USE_SSH=true yarn deploy
