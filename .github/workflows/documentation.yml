@@ -50,4 +50,4 @@ jobs:
           else
             npm i
           fi
-          GIT_USER=<mrzhuyuanheng> DEPLOYMENT_BRANCH=master USE_SSH=true yarn deploy
+          GIT_USER=<GITHUB_USERNAME> DEPLOYMENT_BRANCH=master USE_SSH=true yarn deploy
